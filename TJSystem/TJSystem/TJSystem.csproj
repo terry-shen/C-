@@ -1,0 +1,1415 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{8BCAF0C9-9418-44F7-B513-8AF91CE648B7}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "TJSystem"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "TJSystem"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Shared"
+                    AssemblyName = "CrystalDecisions.Shared"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Shared.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportSource"
+                    AssemblyName = "CrystalDecisions.ReportSource"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.ReportSource.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.CrystalReports.Engine"
+                    AssemblyName = "CrystalDecisions.CrystalReports.Engine"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.CrystalReports.Engine.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Windows.Forms"
+                    AssemblyName = "CrystalDecisions.Windows.Forms"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Windows.Forms.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "Excel"
+                    AssemblyName = "Excel"
+                    HintPath = "bin\Debug\Excel.dll"
+                />
+                <Reference
+                    Name = "PublicStatic"
+                    AssemblyName = "PublicStatic"
+                    HintPath = "bin\Debug\PublicStatic.dll"
+                />
+                <Reference
+                    Name = "MyADO"
+                    AssemblyName = "MyADO"
+                    HintPath = "bin\Debug\MyADO.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.resx"
+                    DependentUpon = "Form1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmAbout.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmAbout.resx"
+                    DependentUpon = "frmAbout.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmConfig.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmConfig.resx"
+                    DependentUpon = "frmConfig.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmCopyForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmCopyForm.resx"
+                    DependentUpon = "frmCopyForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmLogin.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmLogin.resx"
+                    DependentUpon = "frmLogin.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmMain.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMain.resx"
+                    DependentUpon = "frmMain.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmRegister.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmRegister.resx"
+                    DependentUpon = "frmRegister.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmSearchCustomer.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmSearchCustomer.resx"
+                    DependentUpon = "frmSearchCustomer.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmUpdateSysTime.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmUpdateSysTime.resx"
+                    DependentUpon = "frmUpdateSysTime.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmWelcome.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmWelcome.resx"
+                    DependentUpon = "frmWelcome.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmAccountCC.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmAccountCC.resx"
+                    DependentUpon = "frmAccountCC.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmAccountDebit.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmAccountDebit.resx"
+                    DependentUpon = "frmAccountDebit.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmAccountFF.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmAccountFF.resx"
+                    DependentUpon = "frmAccountFF.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmFreightBillhead.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmFreightBillhead.resx"
+                    DependentUpon = "frmFreightBillhead.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmFreightPaymentBillBalance.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmFreightPaymentBillBalance.resx"
+                    DependentUpon = "frmFreightPaymentBillBalance.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmGatheringBill.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmGatheringBill.resx"
+                    DependentUpon = "frmGatheringBill.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmGatheringBillBalance.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmGatheringBillBalance.resx"
+                    DependentUpon = "frmGatheringBillBalance.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmGatheringBillDetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmGatheringBillDetail.resx"
+                    DependentUpon = "frmGatheringBillDetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmGatheringPaymentBill.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmGatheringPaymentBill.resx"
+                    DependentUpon = "frmGatheringPaymentBill.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmPaymentBill.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmPaymentBill.resx"
+                    DependentUpon = "frmPaymentBill.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmPaymentBillBalance.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmPaymentBillBalance.resx"
+                    DependentUpon = "frmPaymentBillBalance.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Account\frmPaymentBillDetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Account\frmPaymentBillDetail.resx"
+                    DependentUpon = "frmPaymentBillDetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicCustomsParam.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicCustomsParam.resx"
+                    DependentUpon = "frmBasicCustomsParam.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicDocTerm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicDocTerm.resx"
+                    DependentUpon = "frmBasicDocTerm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItem.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItem.resx"
+                    DependentUpon = "frmBasicItem.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemClientCode.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemClientCode.resx"
+                    DependentUpon = "frmBasicItemClientCode.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemPack.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemPack.resx"
+                    DependentUpon = "frmBasicItemPack.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemPic.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemPic.resx"
+                    DependentUpon = "frmBasicItemPic.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemPrice.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemPrice.resx"
+                    DependentUpon = "frmBasicItemPrice.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemProperty.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemProperty.resx"
+                    DependentUpon = "frmBasicItemProperty.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemPurHis.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemPurHis.resx"
+                    DependentUpon = "frmBasicItemPurHis.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemSaleHis.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemSaleHis.resx"
+                    DependentUpon = "frmBasicItemSaleHis.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemSupplier.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicItemSupplier.resx"
+                    DependentUpon = "frmBasicItemSupplier.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicParams.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicParams.resx"
+                    DependentUpon = "frmBasicParams.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Basic\frmBasicWhouse.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Basic\frmBasicWhouse.resx"
+                    DependentUpon = "frmBasicWhouse.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientCustomers.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientCustomers.resx"
+                    DependentUpon = "frmClientCustomers.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientCustomersContact.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientCustomersContact.resx"
+                    DependentUpon = "frmClientCustomersContact.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplier.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplier.resx"
+                    DependentUpon = "frmClientSuplier.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplierBank.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplierBank.resx"
+                    DependentUpon = "frmClientSuplierBank.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplierContact.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplierContact.resx"
+                    DependentUpon = "frmClientSuplierContact.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplierItem.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplierItem.resx"
+                    DependentUpon = "frmClientSuplierItem.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplierItemType.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientSuplierItemType.resx"
+                    DependentUpon = "frmClientSuplierItemType.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientTranFreight.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientTranFreight.resx"
+                    DependentUpon = "frmClientTranFreight.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientTrans.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientTrans.resx"
+                    DependentUpon = "frmClientTrans.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientTransBank.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientTransBank.resx"
+                    DependentUpon = "frmClientTransBank.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Clients\frmClientTransContact.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Clients\frmClientTransContact.resx"
+                    DependentUpon = "frmClientTransContact.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrystalRPT\CommonConfig.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstAWBDetail.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstAWBDetail.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstAWBDetail.cs"
+                    DependentUpon = "crstAWBDetail.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstAWBShipper.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstAWBShipper.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstAWBShipper.cs"
+                    DependentUpon = "crstAWBShipper.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstBalance.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstBalance.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstBalance.cs"
+                    DependentUpon = "crstBalance.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstBaoGuanDan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstBaoGuanDan.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstBaoGuanDan.cs"
+                    DependentUpon = "crstBaoGuanDan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstInvoiceOut.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstInvoiceOut.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstInvoiceOut.cs"
+                    DependentUpon = "crstInvoiceOut.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstOfferSheet.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstOfferSheet.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstOfferSheet.cs"
+                    DependentUpon = "crstOfferSheet.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstQuotation.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstQuotation.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstQuotation.cs"
+                    DependentUpon = "crstQuotation.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleBalance.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstSaleBalance.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleBalance.cs"
+                    DependentUpon = "crstSaleBalance.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleBalanceSupplier.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstSaleBalanceSupplier.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleBalanceSupplier.cs"
+                    DependentUpon = "crstSaleBalanceSupplier.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleConfirm.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstSaleConfirm.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleConfirm.cs"
+                    DependentUpon = "crstSaleConfirm.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleConfirm2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstSaleConfirm2.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleConfirm2.cs"
+                    DependentUpon = "crstSaleConfirm2.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleConfirm2.resx"
+                    DependentUpon = "crstSaleConfirm2.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleForm.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstSaleForm.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleForm.cs"
+                    DependentUpon = "crstSaleForm.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleTerm.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstSaleTerm.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleTerm.cs"
+                    DependentUpon = "crstSaleTerm.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSaleTerm.resx"
+                    DependentUpon = "crstSaleTerm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSODetail.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstSODetail.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSODetail.cs"
+                    DependentUpon = "crstSODetail.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSOPack.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "crstSOPack.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\crstSOPack.cs"
+                    DependentUpon = "crstSOPack.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\cystImg.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "cystImg.cs"
+                />
+                <File
+                    RelPath = "CrystalRPT\cystImg.cs"
+                    DependentUpon = "cystImg.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigBaoGuanDan.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigBaoGuanDan.resx"
+                    DependentUpon = "frmConfigBaoGuanDan.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigOfferSheet.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigOfferSheet.resx"
+                    DependentUpon = "frmConfigOfferSheet.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigQuotation.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigQuotation.resx"
+                    DependentUpon = "frmConfigQuotation.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigSaleBalance.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigSaleBalance.resx"
+                    DependentUpon = "frmConfigSaleBalance.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigSaleTerm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmConfigSaleTerm.resx"
+                    DependentUpon = "frmConfigSaleTerm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmReport.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrystalRPT\frmReport.resx"
+                    DependentUpon = "frmReport.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doc\frmAwbDoc.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doc\frmAwbDoc.resx"
+                    DependentUpon = "frmAwbDoc.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doc\frmAwbDocDetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doc\frmAwbDocDetail.resx"
+                    DependentUpon = "frmAwbDocDetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doc\frmCustomerDoc.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doc\frmCustomerDoc.resx"
+                    DependentUpon = "frmCustomerDoc.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doc\frmLCDoc.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doc\frmLCDoc.resx"
+                    DependentUpon = "frmLCDoc.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doc\frmSaleDoc.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doc\frmSaleDoc.resx"
+                    DependentUpon = "frmSaleDoc.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doc\frmSaleOrderList.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doc\frmSaleOrderList.resx"
+                    DependentUpon = "frmSaleOrderList.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doc\frmVrfDoc.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doc\frmVrfDoc.resx"
+                    DependentUpon = "frmVrfDoc.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchasePO.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchasePO.resx"
+                    DependentUpon = "frmPurchasePO.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchasePODetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchasePODetail.resx"
+                    DependentUpon = "frmPurchasePODetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseRS.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseRS.resx"
+                    DependentUpon = "frmPurchaseRS.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseRSDetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseRSDetail.resx"
+                    DependentUpon = "frmPurchaseRSDetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseSE.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseSE.resx"
+                    DependentUpon = "frmPurchaseSE.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseSEDetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseSEDetail.resx"
+                    DependentUpon = "frmPurchaseSEDetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseSQ.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseSQ.resx"
+                    DependentUpon = "frmPurchaseSQ.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseSQDetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Purchase\frmPurchaseSQDetail.resx"
+                    DependentUpon = "frmPurchaseSQDetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Report\frmRptBalance.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\frmRptBalance.resx"
+                    DependentUpon = "frmRptBalance.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Report\frmRptOPHis.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\frmRptOPHis.resx"
+                    DependentUpon = "frmRptOPHis.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Report\frmRptPurHis.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\frmRptPurHis.resx"
+                    DependentUpon = "frmRptPurHis.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Report\frmRptSaleHis.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\frmRptSaleHis.resx"
+                    DependentUpon = "frmRptSaleHis.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Report\frmRptStockStat.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\frmRptStockStat.resx"
+                    DependentUpon = "frmRptStockStat.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Sales\frmCEDetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sales\frmCEDetail.resx"
+                    DependentUpon = "frmCEDetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Sales\frmCQDetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sales\frmCQDetail.resx"
+                    DependentUpon = "frmCQDetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Sales\frmSaleCE.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sales\frmSaleCE.resx"
+                    DependentUpon = "frmSaleCE.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Sales\frmSaleCQ.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sales\frmSaleCQ.resx"
+                    DependentUpon = "frmSaleCQ.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Sales\frmSaleOrder.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sales\frmSaleOrder.resx"
+                    DependentUpon = "frmSaleOrder.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Sales\frmSaleOrder2.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sales\frmSaleOrder2.resx"
+                    DependentUpon = "frmSaleOrder2.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Sales\frmSaleSS.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sales\frmSaleSS.resx"
+                    DependentUpon = "frmSaleSS.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Sales\frmSSDetail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sales\frmSSDetail.resx"
+                    DependentUpon = "frmSSDetail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stock\frmStockBuyIN.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Stock\frmStockBuyIN.resx"
+                    DependentUpon = "frmStockBuyIN.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stock\frmStockBuyINList.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Stock\frmStockBuyINList.resx"
+                    DependentUpon = "frmStockBuyINList.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stock\frmStockChange.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Stock\frmStockChange.resx"
+                    DependentUpon = "frmStockChange.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stock\frmStockChangeINList.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Stock\frmStockChangeINList.resx"
+                    DependentUpon = "frmStockChangeINList.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stock\frmStockChangeOutList.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Stock\frmStockChangeOutList.resx"
+                    DependentUpon = "frmStockChangeOutList.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stock\frmStockCycle.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Stock\frmStockCycle.resx"
+                    DependentUpon = "frmStockCycle.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stock\frmStockCycleINList.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Stock\frmStockCycleINList.resx"
+                    DependentUpon = "frmStockCycleINList.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stock\frmStockSellOut.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Stock\frmStockSellOut.resx"
+                    DependentUpon = "frmStockSellOut.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stock\frmStockSellOutList.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Stock\frmStockSellOutList.resx"
+                    DependentUpon = "frmStockSellOutList.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmBrmFlowDet.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmBrmFlowDet.resx"
+                    DependentUpon = "frmBrmFlowDet.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmBrmFlowMstr.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmBrmFlowMstr.resx"
+                    DependentUpon = "frmBrmFlowMstr.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmBrmFlowMstr1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmBrmFlowMstr1.resx"
+                    DependentUpon = "frmBrmFlowMstr1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmBrmProcess.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmBrmProcess.resx"
+                    DependentUpon = "frmBrmProcess.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmSysCompany.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmSysCompany.resx"
+                    DependentUpon = "frmSysCompany.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmSysCompanyBank.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmSysCompanyBank.resx"
+                    DependentUpon = "frmSysCompanyBank.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmSysDepartment.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmSysDepartment.resx"
+                    DependentUpon = "frmSysDepartment.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmSysEmployee.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmSysEmployee.resx"
+                    DependentUpon = "frmSysEmployee.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmSysPWDChg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmSysPWDChg.resx"
+                    DependentUpon = "frmSysPWDChg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmSysRoleRight.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmSysRoleRight.resx"
+                    DependentUpon = "frmSysRoleRight.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Systems\frmSysUserMenu.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Systems\frmSysUserMenu.resx"
+                    DependentUpon = "frmSysUserMenu.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Tool\frmToolConformCenter.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Tool\frmToolConformCenter.resx"
+                    DependentUpon = "frmToolConformCenter.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "WorkHis\frmWorkRpt.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WorkHis\frmWorkRpt.resx"
+                    DependentUpon = "frmWorkRpt.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{CF845C55-C321-4742-B673-E6212D061ED9}" />
+        </StartupServices>
+    </CSHARP>
+</VisualStudioProject>
+

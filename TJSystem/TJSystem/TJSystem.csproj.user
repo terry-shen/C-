@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <CSHARP LastOpenVersion = "7.10.3077" >
+        <Build>
+            <Settings ReferencePath = "D:\Terry\TJSystem\TJSystem\TJSystem\bin\Debug\;D:\Terry\TJSystem\MutiSystem\TJSystem\TJSystem\bin\Debug\;C:\TDdownload\星期日计算器\bin\Debug\;E:\星期日计算器\bin\Debug\;E:\TJSystem\bin\Debug\;F:\TJSystem\bin\Debug\;D:\Terry\TJSystem\bin\Debug\;E:\戈\DOTNET\TJSystem_rar\TJSystem\bin\Debug\;E:\資料\DOTNET\TJSystem_rar\TJSystem\bin\Debug\;C:\Documents and Settings\Terry\My Documents\Visual Studio Projects\PublicStatic\bin\Debug\;D:\Terry\PublicStatic\bin\Debug\;D:\Terry\System\TJSystem\bin\Debug\;D:\Terry\System\PublicStatic\bin\Debug\;D:\Terry\TJSystem\System\TJSystem\bin\Debug\;D:\Terry\TJSystem\MutiSystem\System_Flow\TJSystem\bin\Debug\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </CSHARP>
+</VisualStudioProject>
+
